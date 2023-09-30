@@ -1,0 +1,937 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	    text-decoration: none;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 34px!important;
+}
+.slick-next {
+    width: 100px !important;
+}
+.slick-prev {
+    left: 4px !important;
+    z-index: 1 !important;
+}
+.scroll-container {
+    background-color: rgb(15 23 42) !important;
+    overflow: hidden !important;
+}
+
+.project-box {
+    width: 245px !important;
+    height: 211px !important;
+}
+.project-main{
+    display: none;
+}
+
+
+.section1{
+    background-color: skyblue;
+}
+.hire-me1{
+    display: none !important;
+}
+.shahid{
+    font-size: 25px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+.nav-li{
+    font-size: 23px;  /*  !important */
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+}
+.sec1-div2{
+    display: flex;
+    justify-content: end;
+}
+.Home {
+    height: 100%;
+    color: #fff;
+    min-height: 530px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #041d3d;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.text-1 {
+    font-size: 27px;
+}
+.text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.About {
+    background: radial-gradient(#5e84ae, white);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 82px;
+}
+.text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.text-p {
+    text-align: justify;
+}
+.Portfolio {
+    color: #fff;
+    background-color: rgb(15 23 42) !important;
+    font-family: "Poppins", sans-serif;
+}
+.project-box {
+    width: 320px !important;
+    height: 206px !important;    
+    overflow: auto;
+    border: 5px solid white;
+    border-radius: 10px 10px 10px 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    background: gray !important;
+    padding: 20px;
+}
+.card :hover {
+    background: skyblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 18px 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.MySkills {
+    background: radial-gradient(#e1efff, white);
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.contact{
+	background: radial-gradient(#e1efff, white);
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.yourimg{
+    width: 86%;
+}
+.yourimg2{
+    width: 81%;
+}
+.form-submit{
+    width: 23%;
+    border-radius: 7px;
+    border: 1px solid gray;
+    background: lightblue;
+    color: black;
+}
+.box-main{
+    display: flex;
+    gap: 30px;
+}
+.intern{
+    list-style: none;
+
+}
+.intern::before {
+    content: "✪ ";
+    color: red;
+}
+.Myprojects{
+    background-color: rgb(15,23,42);
+    color: white;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+}
+.title-p {
+    color: white;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+}
+.About-title {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+}
+.About-title-p{
+   color: black;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600; 
+}
+.inner-services{
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    background-color: rgb(15 23 42) !important;
+    padding: 12px;
+    height: 92%;
+}
+.inner {
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    background: rgb(15,23,42);
+    padding: 12px;
+    height: 92%;
+}
+.inner-services a {
+    color: white;
+}
+.products-img {
+    width: 82%;
+    min-height: 164px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.potofolio-img{
+    width: 33%;
+    border: 5px solid white;
+    border-radius: 50%; 
+    background: white;   
+}
+.foam-main {
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.head {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.icon-logo-li {
+    list-style: none;
+}
+.icon-logo-li :hover {
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+.info {
+        margin-bottom: 43px;
+}
+.info-h5 {
+    display: flex;
+    justify-content: space-between;
+}
+.line-container {
+    background: red;
+    width: 100%;
+    height: 5px;
+}
+.line-html{
+    width: 80%;
+    background: black;
+    height: 5px;    
+}
+.line-css{
+    width: 80%;
+    background: black;
+    height: 5px;    
+}
+.line-bootstrap{
+    width: 65%;
+    background: black;
+    height: 5px;    
+}
+.line-javascript{
+    width: 45%;
+    background: black;
+    height: 5px;    
+}
+.line-php{
+    width: 35%;
+    background: black;
+    height: 5px;    
+}
+.line-java {
+    width: 35%;
+    background: black;
+    height: 5px;
+}
+
+
+
+
+
+
+
+/* Responsive in Destop and Tab */
+
+@media screen and (max-width: 1024px) {
+.nav-li {
+   font-size: 23px;  /* !important*/
+}
+.text-2 {
+    font-size: 60px;
+}
+.yourimg {
+    width: 86%;
+}
+.yourimg2 {
+    width: 77%;
+}
+.project-box {
+    width: 280px !important;
+    height: 206px !important;
+    overflow: auto;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+}
+.project-main{
+    display: none;
+}
+
+
+
+
+
+}
+
+/* Ye TAB ke liye h */
+
+@media screen and (max-width: 947px) {
+
+.nav-li {
+   font-size: 16px;  /* !important*/
+}
+.text-2 {
+    line-height: 64px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.yourimg {
+    width: 98%;
+    height: 77%;
+}
+.yourimg2 {
+    width: 95%;
+    height: 80%;
+}
+.project-box {
+    width: 221px !important;
+    height: 161px !important;
+}
+.project-main{
+    display: none;
+}
+
+}
+
+
+/* Responsive for Mobile */
+
+@media screen and (max-width: 767px) {
+
+.container {
+    width: 100%  !important;
+    padding-right: 30px  !important;
+    padding-left: 30px  !important;
+}    
+
+.sec1-div2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.img-navbar {
+    width: 100%;
+}
+.hire-me{
+    display: none !important;
+}
+.hire-me1{
+    display: block !important;
+}
+.yourimg {
+    width: 117%;
+    height: 77%;
+    margin-top: 33px;
+}
+.Home {
+    padding-top: 113px;
+    padding-bottom: 113px;
+}
+.yourimg2 {
+    width: 116%;
+    height: 80%;
+}
+.info {
+    margin-bottom: 23px;
+}
+.project-folder {
+    display: flex;
+    gap: 91px;
+    justify-content: center;
+}
+.project-main{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+.scroll-container{
+    display: none !important;
+}
+.form-submit {
+    width: 41%;
+    font-size: 19px;
+}
+
+}
+
+/*<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> My Protfolio </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+   <style>
+        .scroll-container{
+          background-color: #333;
+          overflow: auto;
+          white-space: nowrap;
+          padding: 10px;
+          display: flex;
+        }
+
+        .img-1 {
+          padding: 10px;
+        }
+</style>
+
+</head>
+
+
+<body>
+
+    <section class="section1">
+    <div class="container">
+        <nav class="navbar navbar-expand-md justify-content-between pt-4 pb-4 ">
+   <a class="navbar-brand" href="#"> <h2 class=" shahid"> SHAHID  </h2>  </a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"> <img src="img/threeline.png" aria-hidden="true" class=" img-navbar"></span>
+  </button> 
+  <div class="collapse navbar-collapse sec1-div2" id="collapsibleNavbar">
+    <ul class="navbar-nav d-flex flex-wrap justify-content-center sec1-ul">
+
+        <li class="nav-item">
+        <a class="nav-link nav-li" href="#home"> Home </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link nav-li" href="#about"> About </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link nav-li" href="#portfolio"> Services </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link nav-li" href="#skills"> Skills </a>
+      </li> 
+
+      <li class="nav-item">
+        <a class="nav-link nav-li" href="#project"> Project </a>
+      </li> 
+
+      <li class="nav-item">
+        <a class="nav-link nav-li" href="#contact-us"> Contact Us </a>
+      </li> 
+    </ul>
+  </div>  
+
+</nav>
+</div>
+    </section>
+
+    <section class="Home" id="home">
+          <div class="container">
+              <div class="row">
+
+                <div class="col m-auto">
+                  <div class="home-content">
+                        <div class="text-1"> Hello, I am </div>
+                        <div class="text-2"> Shahid Khan </div>
+                        <div class="text-3"> I'm Front End Devloper/Designer
+                        <br> I have 6 Months Experience. </div>
+                        <button type="button" class="btn btn-primary btn-lg mt-3 hire-me"> HIRE ME </button>
+                  </div>
+                </div>
+
+                <div class="col col-lg-5 col-mg-6 col-sm-6 col-10">
+                 <img src="img/img0.jpg" class="yourimg">
+                </div>
+
+                <div class=" mx-auto">
+                    <button type="button" class="btn btn-primary btn-lg mt-3 hire-me1"> HIRE ME </button>   
+                </div>
+
+              </div>
+          </div>
+    </section>
+
+    <section class="About" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center pt-5 pb-5"> 
+                    <h2 class="title"> About Me </h2>  
+                    <p class="title-p"> —Who I Am ?—  </p>   
+                </div>
+
+                    <div class="col col-lg-5 col-mg-6 col-sm-6 col-10">
+                      <img src="img/img4.jpg" class="yourimg2">
+                    </div>
+
+                    <div class="col m-auto">
+                      <div class="home-content">
+                        <div class="text"> I'm Shahid Khan </div>
+                            <p> Seeking an i have 6 Month,s experience an esteemed organization where I can utilize my skills & enhance learning in the field of work. Capable of mastering new technologies. </p>
+                        
+                            <div class="text"> Why Work With Me </div>
+                            <p> I'm a great communicator & love to invest the necessary time to understand the customer's problem very well.</p>
+                         
+                          <div>
+                            <a href="/Protfolio/shahid.pdf" target="blank"> 
+                                <button type="button" class="btn btn-primary btn-lg"> Download CV </button>
+                                 </a>
+                          </div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="Portfolio pt-5 pb-5" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center pb-3"> 
+                    <h2 class="title pt-5 pb-5"> Portfolio  </h2> 
+                </div>
+
+                <!-- Ye Phone ke liye h  -->
+
+                 <div class="project-main"> 
+                    
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/figma.png" class=" w-100" > </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/dogfordog.png" class=" w-100"> </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/gleeful-src.png" class=" w-100"> </a>
+                        </div> 
+
+                    </div>
+
+                  </div>
+
+
+<!-- Ye desktop ke liye aur laptop aur tab ke liye -->
+
+ <div class="scroll-container">
+  <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/figma.png" class=" w-100" > </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/dogfordog.png" class=" w-100"> </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/gleeful-src.png" class=" w-100"> </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/pizza.png" class=" w-100" > </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/protfolio.png" class=" w-100"> </a>
+                        </div> 
+                    </div>
+
+                    <div class="col text-center col-lg-4 col-mg-4 col-sm-4 col-12 mb-3 project-folder">
+                        <div class="project-box">
+                            <a href="#"> <img src="img/dogfordog.png" class=" w-100"> </a>
+                        </div> 
+                    </div>
+
+                </div> 
+                    
+                <div class="col-12 text-center pt-5 pb-3"> 
+                    <h2 class="title pt-5 pb-5"> My services  </h2> 
+                </div>
+
+
+<div class="row d-flex justify-content-center ">
+
+
+                <div class="product col-lg-4 col-mg-6 col-sm-6 col-10 pt-2">
+
+              <div class="inner-services  text-center pt-5 pb-5">
+                    <div class="">
+                      <img src="img/laptop.png" class="potofolio-img mb-3">
+                    </div>
+
+                    <div class="products-name-price pb-2">
+                     <a href="#product">  <h3 class=" pb-2"> Web Design </h3>  </a> 
+                      <p> Your Next Web Developer, who is working in Bootstrap JavaScript, High Converting
+                          Ecommerce stores, Product Page also having Custom code, liquid template Design. 
+                           </p>
+                    </div>
+
+                </div>
+            </div>
+                  <!-- Img-2 -->
+            <div class="product col-lg-4 col-mg-6 col-sm-6 col-10 pt-2">
+
+              <div class="inner-services  text-center pt-5 pb-5">
+                    <div class="">
+                      <img src="img/coding.png" class="potofolio-img mb-3">
+                    </div>
+
+                    <div class="products-name-price pb-2">
+                      <a href="#product">  <h3 class=" pb-2"> Web Developer </h3>  </a> 
+                      <p> I ensures that, there is no sensitive data included in the source code and are stored outside of the project folder. And all the data which is stored by User Secrets is not encrypted.  </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>     
+                       
+            </div>
+        </div>  
+    </section>
+
+
+    <section class="MySkills " id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center"> 
+                    <h2 class="About-title  pt-5"> My Skills </h2> 
+                    <p class="About-title-p"> —What I know ?—  </p>
+                </div>
+
+
+                    <div class="col">
+                      <div class="home-content">
+                       <div class="text"> Experience </div>
+                        <p> </p>
+                        <li class="intern">#BASE2BRAND Infotech Pvt.Ltd "Frontend Devloper (internship)"</li>
+                        <li class="intern">#FUEL Traning Mohali "Backend Devloper/ JAVA/Programing (Training)" </li>
+                        <li class="intern">#DCA "Data Entery/ Ms Word, Ms Office, Power Points Skills" </li>
+                        <br>
+                        <div class="text"> PROJECT </div>
+                        <p> </p>
+                        <li class="intern">Portfolio (HTML, CSS, js, Bootstraps)</li>
+                        <li class="intern">ECommerce Website (Bootstrap, JavaScript, HTML, CSS)</li>
+                        <li class="intern">Fully Responsive Design (Dog For Dog, Figma"Motor Car"Project, Glefful Supplimnets, Profolio, Pizza Hut) Website</li> 
+                        <li class="intern">Glefuul Supliments (HTML, CSS, Bootstraps)</li>
+                        <li class="intern">Currently Working on E-Commerce web site with Backend</li>
+                        <br>
+                        <div class="text"> DEVELOPMENT SKILLS </div>
+                        <p> I'm familiar & work on a daily basis with HTML, CSS, JavaScript, Bootstrap, Wordpress,Figma. </p>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                       <div class="info">
+                          <div class="info-h5"> 
+                            <h5> HTML </h5>
+                            <h5> 80% </h5>  
+                          </div> 
+                          <div class="line-container">
+                            <div class="line-html">
+                            
+                            </div>
+                          </div>    
+                       </div>
+
+                       <div class="info">
+                          <div class="info-h5"> 
+                            <h5> CSS </h5>
+                            <h5> 80% </h5>  
+                          </div> 
+                          <div class="line-container">
+                            <div class="line-css">
+                            
+                            </div>
+                          </div>    
+                       </div>
+
+                       <div class="info">
+                          <div class="info-h5"> 
+                            <h5> Bootstrap </h5>
+                            <h5> 65% </h5>  
+                          </div> 
+                          <div class="line-container">
+                            <div class="line-bootstrap">
+                            
+                            </div>
+                          </div>    
+                       </div>
+
+                       <div class="info">
+                          <div class="info-h5"> 
+                            <h5> JavaScript </h5>
+                            <h5> 45% </h5>  
+                          </div> 
+                          <div class="line-container">
+                            <div class="line-javascript">
+                            
+                            </div>
+                          </div>    
+                       </div>
+
+                       <div class="info">
+                          <div class="info-h5"> 
+                            <h5> PHP </h5>
+                            <h5> 35% </h5>  
+                          </div> 
+                          <div class="line-container">
+                            <div class="line-php">
+                            
+                            </div>
+                          </div>    
+                       </div>
+
+                       <div class="info">
+                          <div class="info-h5"> 
+                            <h5> Java </h5>
+                            <h5> 35% </h5>  
+                          </div> 
+                          <div class="line-container">
+                            <div class="line-java">
+                            
+                            </div>
+                          </div>    
+                       </div>
+
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+
+<section class="Myprojects pb-5" id="project">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <div class="col-12 text-center pt-5 pb-5"> 
+                    <h2 class="title"> My Projects </h2> 
+                    <p class="title-p"> —What I did ?— </p> 
+                </div>
+
+
+          <div class="row ">
+
+            <div class="product col-lg-3 col-mg-6 col-sm-6 col-12 pt-2">
+
+              <div class="inner  text-center pt-5 pb-5">
+                    <div class="">
+                      <img src="img/gleeful1.png" class="products-img mb-3">
+                    </div>
+
+                    <div class="products-name-price pb-2">
+                      <h3 class=" text pb-2"> Ecommerce </h3>
+                      <p> #Project Details:- Medical Tablets by Gleefule Suplimntes. Handcrafted art watches, bracelets, FORD watch bands. Unique mens Motors Parts, thin Dog for Dog website, stylish designs. </p>
+                    </div>
+
+                </div>
+            </div>
+                  <!-- Img-2 -->
+            <div class="product col-lg-3 col-mg-6 col-sm-6 col-12 pt-2">
+
+              <div class="inner  text-center pt-5 pb-5">
+                    <div class="">
+                      <img src="img/protfolio1.png" class="products-img mb-3">
+                    </div>
+
+                    <div class="products-name-price pb-2">
+                      <h3 class=" text pb-2"> Portfolio </h3>
+                      <p> This is my portfolio with my total details project, education, skills and etc... </p>
+                    </div>
+
+                </div>
+            </div>
+                  <!-- Img-3 -->
+            <div class="product col-lg-3 col-mg-6 col-sm-6 col-12 pt-2">
+
+              <div class="inner  text-center pt-5 pb-5">
+                    <div class="">
+                      <img src="img/figma1.png" class="products-img mb-3">
+                    </div>
+
+                    <div class="products-name-price pb-2">
+                      <h3 class=" text pb-2"> Motor Car </h3>
+                      <p> #Project Details:-  Motor Cars by FORD CAR. Handcrafted art watches, bracelets, FORD watch bands. Unique mens Motors Parts, thin Dog for Dog website, stylish designs. </p>
+                    </div>
+
+                </div>
+            </div>
+                  <!-- Img-4 -->
+           <div class="product col-lg-3 col-mg-6 col-sm-6 col-12 pt-2">
+
+              <div class="inner  text-center pt-5 pb-5">
+                    <div class="">
+                      <img src="img/dogfordog1.png" class="products-img mb-3">
+                    </div>
+
+                    <div class="products-name-price pb-2">
+                      <h3 class=" pb-2"> Responsive Design </h3>
+                      <p> Shopify a create 8+ Responsive Tamplete html, css, JavaScript, Bootstrap, figma. </p>
+                    </div>
+
+               </div>
+            </div>
+
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="contact" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center"> 
+                    <h2 class="About-title pt-5"> Contact Us  </h2> 
+                    <p class="About-title-p"> —Get in touch ?— </p>
+                </div>
+
+                    <div class="col">
+                       <div class="home-content">
+                          <div class="text"> Get in touch </div>
+                          <p class="text-p"> Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be a part of your visions. Email me with any questions or inquiries. I'll happy to answer your questions and set up a meeting with you. </p>
+                       <div class="foam-main"> 
+                          <div class="head">  Name  </div>
+                          <a href="#"> <span class=" text-dark"> Shahid Khan </span>  </a>
+                          
+                          <div class="head">  Addres  </div>
+                          <a href="#"> <span class=" text-dark"> Current Address:- Balongi, Mohali, Chandigarh, Punjab </span>  </a> <br>
+                          <a href="#"> <span class=" text-dark"> Permannet Address:- Pengwara, Pachrukhi, Siwan, Bihar </span>  </a>
+
+                          <div class="head"> Email:-  </div>
+                          <a href="#"> <span class=" text-dark"> khanshahid93397gmail.com </span>  </a>
+
+                          <div class="head"> Language  </div>
+                          <a href="#"> <span class=" text-dark"> Hindi, English, Urdu </span>  </a>
+
+
+                          <div class="icon-logo">
+                             <ul class="icon-logo-ul d-flex "> 
+                                <li class="icon-logo-li ">
+                                    <a href="https://github.com/kingkhanshahid" target="blank">  <img src="img/github.png" alt="Instagram" class=" w-75"> </a>
+                                </li>
+                                <li class="icon-logo-li ">
+                                    <a href="https://www.linkedin.com/in/shahid-khan-919265253/" target="blank">  <img src="img/linkdin.png" alt="Instagram" class=" w-75"> </a>
+                                </li>
+                                <li class="icon-logo-li ">
+                                    <a href="https://www.instagram.com/king_khan_shahid11/?hl=en" target="blank"> <img src="img/instagram.png" alt="Instagram" class=" w-75"> </a>
+                                </li>
+                             </ul>
+                          </div>
+                       </div>   
+                    </div>
+                </div>
+
+                    <div class="col text-center">
+                        <div class="text">
+                            Message Me:-
+                        </div>
+                         <form>
+                            <input type="text" name="name" placeholder="  Enter your name" class=" rounded"> <br> <br>
+                            <input type="email" name="Email" placeholder="  Enter your Email Id" class=" rounded"> <br> <br>
+                            <input type="number" name="number" placeholder="  Your Contact No" class=" rounded"> <br> <br>
+                            <input type="text" name="text" placeholder="  Your message" class=" rounded"> <br> <br>
+                            <div>
+                            <input type="submit" name="submit" placeholder=" Send your message" class="form-submit">            
+                            </div>
+                         </form>
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+<section class="copy-right">
+    <div class="container">
+        <div class=" d-flex justify-content-center"> 
+            <a href="#"> <h6 class=" text-center text-dark pt-1"> Shahid Khan </h6> </a>
+            <p> &copy;  2023 All Rights Reserved. Privacy Policy</p>
+        </div>
+    </div>
+</section>
+
+
+
+    </div>
+    <script type="text/javascript">
+    $('.scroll-container').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+    </script>
+
+
+</body>
+</html>*/
